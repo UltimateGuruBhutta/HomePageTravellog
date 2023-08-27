@@ -17,15 +17,15 @@ function TopBar() {
 
     <div className='flex'>
       <div  className='hidden md:flex items-center px-6' >
-        <AiOutlineClockCircle/>
-        <p>
+        <AiOutlineClockCircle size={20} className='mr-2 text-[var(--primary-dark)]'/>
+        <p className='text-sm text-grey-700'>
           9AM - 5AM
         </p>
 
       </div>
       <div className='hidden md:flex items-center px-6'>
-        <AiFillPhone/>
-        <p>
+        <AiFillPhone size={20} className='mr-3 text-[var(--primary-dark)]'/>
+        <p className='text-sm text-grey-700 mr-5'>
           1-888-817-1234
         </p>
         <button>Get a Free Quote</button>
